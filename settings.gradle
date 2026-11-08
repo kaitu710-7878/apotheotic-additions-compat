@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = 'MinecraftForge'
+            url = 'https://maven.minecraftforge.net/'
+        }
+        maven {
+            name = 'ParchmentMC'
+            url = 'https://maven.parchmentmc.org'
+        }
+        maven {
+            url = 'https://repo.spongepowered.org/repository/maven-public/'
+        }
+    }
+}
+
+rootProject.name = 'apotheotic-additions-compat'

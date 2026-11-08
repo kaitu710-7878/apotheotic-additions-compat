@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.apotheotic_additions_compat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "apotheotic_additions_compat.refmap.json",
+  "mixins": [
+    "AffixRegistryAccessor",
+    "AffixRegistryMixin",
+    "AttributeAffixAccessor",
+    "AttributeAffixMixin",
+    "DynamicRegistryAccessor",
+    "FestiveAffixMixin",
+    "PotionAffixAccessor",
+    "PotionAffixMixin",
+    "ThunderstruckAffixMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
